@@ -1,0 +1,145 @@
+<!doctype html>
+<html lang="tr">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<title>Bütçem – Destek</title>
+<style>
+  :root {
+    --bg: #f7f7fb;
+    --card: #ffffff;
+    --text: #14141f;
+    --muted: #5b5b6b;
+    --accent: #7c6fff;
+    --border: #e6e6f0;
+  }
+  @media (prefers-color-scheme: dark) {
+    :root {
+      --bg: #0b0b12;
+      --card: #14141f;
+      --text: #f2f2f7;
+      --muted: #a3a3b3;
+      --accent: #9b90ff;
+      --border: #23232f;
+    }
+  }
+  * { box-sizing: border-box; }
+  body {
+    margin: 0;
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+    background: var(--bg);
+    color: var(--text);
+    line-height: 1.6;
+  }
+  .wrap {
+    max-width: 720px;
+    margin: 0 auto;
+    padding: 48px 20px 80px;
+  }
+  header {
+    text-align: center;
+    margin-bottom: 40px;
+  }
+  .logo {
+    width: 64px;
+    height: 64px;
+    border-radius: 16px;
+    background: var(--accent);
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 28px;
+    font-weight: 700;
+    margin: 0 auto 16px;
+  }
+  h1 {
+    font-size: 28px;
+    margin: 0 0 8px;
+  }
+  .subtitle {
+    color: var(--muted);
+    font-size: 16px;
+    margin: 0;
+  }
+  .card {
+    background: var(--card);
+    border: 1px solid var(--border);
+    border-radius: 16px;
+    padding: 24px;
+    margin-bottom: 20px;
+  }
+  h2 {
+    font-size: 18px;
+    margin: 0 0 12px;
+  }
+  p { margin: 0 0 12px; color: var(--text); }
+  p:last-child { margin-bottom: 0; }
+  .muted { color: var(--muted); font-size: 14px; }
+  a.button {
+    display: inline-block;
+    background: var(--accent);
+    color: white;
+    text-decoration: none;
+    padding: 12px 20px;
+    border-radius: 10px;
+    font-weight: 600;
+    font-size: 15px;
+  }
+  a { color: var(--accent); }
+  .faq-item { margin-bottom: 18px; }
+  .faq-item:last-child { margin-bottom: 0; }
+  .faq-q { font-weight: 600; margin-bottom: 4px; }
+  footer {
+    text-align: center;
+    color: var(--muted);
+    font-size: 13px;
+    margin-top: 40px;
+  }
+</style>
+</head>
+<body>
+  <div class="wrap">
+    <header>
+      <div class="logo">B</div>
+      <h1>Bütçem</h1>
+      <p class="subtitle">Destek ve İletişim</p>
+    </header>
+
+    <div class="card">
+      <h2>Bize Ulaşın</h2>
+      <p>Uygulamayla ilgili bir sorun mu yaşıyorsunuz, önerileriniz mi var? Size yardımcı olmaktan memnuniyet duyarız.</p>
+      <p><a class="button" href="mailto:sukrutanriverdi10@gmail.com?subject=B%C3%BCt%C3%A7em%20Destek">E-posta Gönder</a></p>
+      <p class="muted">sukrutanriverdi10@gmail.com</p>
+    </div>
+    
+    <div class="card">
+      <h2>Sıkça Sorulan Sorular</h2>
+
+      <div class="faq-item">
+        <div class="faq-q">Verilerim nerede saklanıyor?</div>
+        <div>Tüm işlem, bütçe ve borç verileriniz güvenli sunucularımızda, hesabınıza özel olarak saklanır. Verileriniz üçüncü taraflarla paylaşılmaz.</div>
+      </div>
+
+      <div class="faq-item">
+        <div class="faq-q">Hesabımı ve verilerimi nasıl silebilirim?</div>
+        <div>Uygulama içinde Ayarlar → Tehlikeli Bölge kısmından tüm verilerinizi sıfırlayabilirsiniz. Hesabınızın tamamen silinmesini isterseniz yukarıdaki e-posta adresinden bize ulaşabilirsiniz.</div>
+      </div>
+
+      <div class="faq-item">
+        <div class="faq-q">Bir hata veya çökme yaşadım, ne yapmalıyım?</div>
+        <div>Lütfen hangi ekranda, ne yaparken karşılaştığınızı kısaca e-posta ile bildirin; mümkünse bir ekran görüntüsü ekleyin. En kısa sürede döneriz.</div>
+      </div>
+
+      <div class="faq-item">
+        <div class="faq-q">Yeni bir özellik önerebilir miyim?</div>
+        <div>Elbette — önerilerinizi e-posta ile iletebilirsiniz, uygulamayı sizin ihtiyaçlarınıza göre geliştirmeye devam ediyoruz.</div>
+      </div>
+    </div>
+
+    <footer>
+      © 2026 Şükrü Tanrıverdi — Bütçem
+    </footer>
+  </div>
+</body>
+</html>
