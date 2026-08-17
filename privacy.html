@@ -99,7 +99,7 @@
       <div class="logo">B</div>
       <h1>Gizlilik Politikası</h1>
       <p class="subtitle">Bütçem</p>
-      <p class="updated">Son güncelleme: 31 Temmuz 2026</p>
+      <p class="updated">Son güncelleme: 17 Ağustos 2026</p>
     </header>
 
     <div class="card">
@@ -113,7 +113,9 @@
       <ul>
         <li><strong>Hesap bilgileri:</strong> E-posta adresiniz ve (Google ile giriş yaparsanız) adınız, hesabınızı oluşturmak ve doğrulamak için kullanılır.</li>
         <li><strong>Finansal veriler:</strong> Uygulamaya elle girdiğiniz işlemler, gelir/gider kayıtları, kredi kartları, krediler, kişisel borç/alacaklar, varlıklar, abonelikler, faturalar, hedefler ve bütçe limitleri.</li>
-        <li><strong>Fiş görselleri:</strong> Fiş tarama özelliğini kullanırsanız, çektiğiniz veya seçtiğiniz fiş fotoğrafları işlem kaydınızla ilişkilendirilmek üzere saklanır.</li>
+        <li><strong>Fiş görselleri:</strong> Fiş tarama özelliğini kullanırsanız, çektiğiniz veya seçtiğiniz fiş fotoğrafları işlem kaydınızla ilişkilendirilmek üzere saklanır ve tutar/kategori bilgisini otomatik çıkarmak amacıyla yapay zeka sağlayıcımıza iletilir.</li>
+        <li><strong>AI asistan mesajları:</strong> Uygulama içi yapay zeka sohbet asistanını kullanırsanız, yazdığınız mesajlar ve size anlamlı bir yanıt verilebilmesi için gereken bütçe verilerinizin bir özeti, yanıt üretmek amacıyla yapay zeka sağlayıcımıza iletilir.</li>
+        <li><strong>Abonelik bilgileri:</strong> Premium özelliklere (AI asistan, fiş tarama) erişiminiz olup olmadığını belirlemek için abonelik durumunuz (plan, başlangıç/bitiş tarihi, mağaza) hesabınızla ilişkilendirilerek saklanır. Bkz. "Abonelik ve Ödemeler".</li>
       </ul>
       <p>Uygulama herhangi bir banka hesabına bağlanmaz; tüm finansal veriler sizin tarafınızdan elle girilir veya fiş taramasıyla oluşturulur.</p>
     </div>
@@ -124,8 +126,23 @@
         <li>Hesabınızı oluşturmak, doğrulamak ve cihazlarınız arasında verilerinizi senkronize etmek için.</li>
         <li>Uygulamanın temel işlevlerini (bütçe özeti, grafikler, borç takibi, hatırlatmalar vb.) sunmak için.</li>
         <li>Fiş tarama özelliğinde tutar ve kategori bilgisini otomatik doldurmak için.</li>
+        <li>AI asistan sohbetinde sorularınıza bütçe verilerinize dayanan anlamlı yanıtlar üretmek için.</li>
+        <li>Premium abonelik durumunuzu doğrulamak ve buna bağlı özellikleri (AI asistan, fiş tarama) açmak/kapatmak için.</li>
       </ul>
-      <p>Verileriniz reklam, pazarlama veya profilleme amacıyla kullanılmaz. Uygulama içinde reklam veya üçüncü taraf analiz/izleme SDK'sı bulunmamaktadır.</p>
+      <p>Verileriniz reklam veya profilleme amacıyla kullanılmaz. Uygulama içinde reklam SDK'sı bulunmamaktadır. Üçüncü taraf hizmetler yalnızca bu sayfada belirtilen amaçlarla (kimlik doğrulama, abonelik yönetimi, yapay zeka yanıtı üretme) kullanılır; pazarlama veya izleme amaçlı kullanılmaz.</p>
+    </div>
+
+    <div class="card">
+      <h2>Abonelik ve Ödemeler</h2>
+      <p>Uygulamadaki bazı özellikler (AI asistan sohbeti, fiş tarama) premium abonelik gerektirir. Bütçe takibi, işlemler, kredi kartları, borçlar, hedefler ve diğer tüm temel özellikler ücretsizdir.</p>
+      <ul>
+        <li><strong>Ödemeler:</strong> Tüm satın almalar doğrudan Apple App Store / Google Play üzerinden işlenir. Kart veya ödeme bilgileriniz bize hiçbir zaman ulaşmaz ve sunucularımızda saklanmaz.</li>
+        <li><strong>Otomatik yenileme:</strong> Abonelikler, mevcut dönem bitmeden en az 24 saat önce iptal edilmediği sürece otomatik olarak yenilenir ve hesabınıza kayıtlı ödeme yöntemi üzerinden ücretlendirilir.</li>
+        <li><strong>Fiyat ve süre:</strong> Abonelik ücreti ve süresi (aylık/yıllık) satın alma ekranında ve App Store/Google Play mağaza sayfanızda gösterilir; bölgeye göre değişebilir.</li>
+        <li><strong>İptal:</strong> Aboneliğinizi istediğiniz zaman iptal edebilirsiniz — iOS'ta Ayarlar → [Apple ID'niz] → Abonelikler, Android'de Google Play Store → Abonelikler yolunu izleyin. Apple/Google politikaları gereği abonelik iptali uygulama içinden doğrudan yapılamaz.</li>
+        <li><strong>Abonelik yönetimi:</strong> Satın alma ve abonelik durumunuzu yönetmek için RevenueCat adlı bir alt yüklenici kullanıyoruz (bkz. "Veri Paylaşımı").</li>
+      </ul>
+      <p>iOS için Kullanım Şartları (EULA): <a href="https://www.apple.com/legal/internet-services/itunes/dev/stdeula/" target="_blank" rel="noopener">Apple Standart Lisans Sözleşmesi</a>.</p>
     </div>
 
     <div class="card">
@@ -134,6 +151,8 @@
       <ul>
         <li><strong>Firebase Authentication (Google):</strong> Hesap girişi ve kimlik doğrulama için.</li>
         <li><strong>Google Sign-In:</strong> Google hesabınızla giriş yapmayı tercih ederseniz, Google'ın kendi gizlilik politikası kapsamında temel profil bilgilerinizi (ad, e-posta) paylaşır.</li>
+        <li><strong>RevenueCat:</strong> Abonelik satın alma, yenileme ve iptal durumunuzu yönetmek için hesap kimliğiniz ve App Store/Google Play'den gelen satın alma bilgileri RevenueCat ile paylaşılır. RevenueCat ödeme/kart bilgilerinize erişemez.</li>
+        <li><strong>Anthropic (Claude AI):</strong> AI asistan sohbeti veya fiş tarama özelliğini kullandığınızda, ilgili mesajınız, gerekli bütçe özeti veya fiş görseliniz, yanıt üretmek amacıyla Anthropic'in Claude modeline iletilir. Bu veriler, Anthropic'in ticari API kullanım koşulları gereği model eğitiminde kullanılmaz.</li>
       </ul>
       <p>Bu hizmet sağlayıcılar veriyi yalnızca Uygulama'ya hizmet sunmak amacıyla işler.</p>
     </div>
@@ -145,7 +164,7 @@
 
     <div class="card">
       <h2>Veri Saklama ve Silme</h2>
-      <p>Verileriniz, hesabınız aktif olduğu sürece saklanır. Uygulama içinde Ayarlar → Tehlikeli Bölge'den tüm finansal verilerinizi sıfırlayabilirsiniz. Hesabınızın ve ilişkili tüm verilerin kalıcı olarak silinmesini talep etmek için aşağıdaki e-posta adresinden bizimle iletişime geçebilirsiniz; talebiniz makul bir süre içinde yerine getirilir.</p>
+      <p>Verileriniz, hesabınız aktif olduğu sürece saklanır. Uygulama içinde Ayarlar → Tehlikeli Bölge'den tüm finansal verilerinizi sıfırlayabilirsiniz. Hesabınızın ve ilişkili tüm verilerin kalıcı olarak silinmesini talep etmek için aşağıdaki e-posta adresinden bizimle iletişime geçebilirsiniz; talebiniz makul bir süre içinde yerine getirilir. Aboneliğinizin App Store/Google Play tarafında ayrıca iptal edilmesi gerektiğini unutmayın — hesap silme aboneliğinizi otomatik olarak iptal etmez.</p>
     </div>
 
     <div class="card">
